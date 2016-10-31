@@ -9,7 +9,7 @@ Documentation: https://github.com/meganlkm/pretty-json
 Installation
 ------------
 
-.. code-block:: bash
+.. code-block:: shell
 
    pip install pretty-json
 
