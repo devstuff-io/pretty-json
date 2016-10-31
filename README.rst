@@ -18,7 +18,7 @@ Environment Variables
 ---------------------
 
 ``PJSON_OUTPUT_STYLE``
-.....................
+......................
 
 **Default**: monokai
 

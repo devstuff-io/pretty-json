@@ -5,7 +5,7 @@ setup(
     packages=[
         'pretty_json'
     ],
-    version='0.0.2',
+    version='1.0.1',
     include_package_data=True,
     description='make pretty json',
     long_description=open('README.rst').read(),
