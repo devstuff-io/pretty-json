@@ -27,7 +27,7 @@ def json_serial(obj):
 
 
 def jdump(obj, *args, **kwargs):
-    return json.dumps(obj, default=json_serial, **kwargs)
+    return json.dumps(obj, encoding='latin1', default=json_serial, **kwargs)
 
 
 def pretty_print(obj, sort_keys=True, indent=4, separators=(',', ': ')):
