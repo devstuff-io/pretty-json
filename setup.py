@@ -5,13 +5,13 @@ setup(
     packages=[
         'pretty_json'
     ],
-    version='1.0.2',
+    version='1.1.0',
     include_package_data=True,
     description='make pretty json',
     long_description=open('README.rst').read(),
-    url='https://github.com/meganlkm/pretty-json',
+    url='https://github.com/devstuff-io/pretty-json',
     author='meganlkm',
-    author_email='megan.lkm@gmail.com',
+    author_email='devstuff.io@gmail.com',
     install_requires=[
         'Pygments',
         'pygments-json'

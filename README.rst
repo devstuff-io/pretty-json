@@ -3,7 +3,7 @@ pretty-json
 
 make pretty json.
 
-Documentation: https://github.com/meganlkm/pretty-json
+Documentation: https://github.com/devstuff-io/pretty-json
 
 
 Installation
