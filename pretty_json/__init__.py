@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 try:
     import simplejson as json
 except ImportError:
@@ -27,7 +29,14 @@ def json_serial(obj):
 
 
 def jdump(obj, *args, **kwargs):
-    return json.dumps(obj, encoding='latin1', default=json_serial, **kwargs)
+    rtn = None
+    try:
+        rtn = json.dumps(obj, encoding='latin1', default=json_serial, **kwargs)
+    except TypeError:
+        rtn = json.dumps(obj, default=json_serial, **kwargs)
+    except:
+        raise
+    return rtn
 
 
 def pretty_print(obj, sort_keys=True, indent=4, separators=(',', ': ')):
@@ -72,3 +81,6 @@ def sample(style=OUTPUT_STYLE):
             }
         }
     }, style))
+
+
+__version__ = '1.2.0'
