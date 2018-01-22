@@ -51,7 +51,7 @@ Usage
 .. code-block:: shell
 
    pip install pygments-solarized
-   python -c "from pretty_json import sample;sample('manni')"
+   python -c "from pretty_json import sample;sample('solarized')"
 
 
 .. image:: example2.png
