@@ -43,6 +43,9 @@ Usage
    python -c "from pretty_json import sample;sample('manni')"
 
 
+.. image:: example.png
+
+
 Authors
 -------
 
