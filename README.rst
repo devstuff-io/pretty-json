@@ -44,7 +44,7 @@ Usage
 
 
 .. image:: example.png
-   :scale: 70%
+   :scale: 50%
 
 
 Authors
