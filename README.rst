@@ -43,6 +43,20 @@ Usage
    python -c "from pretty_json import sample;sample('manni')"
 
 
+.. image:: example.png
+
+
+**All of the installed pygments styles are available:**
+
+.. code-block:: shell
+
+   pip install pygments-solarized
+   python -c "from pretty_json import sample;sample('solarized')"
+
+
+.. image:: example2.png
+
+
 Authors
 -------
 

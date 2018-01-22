@@ -70,7 +70,7 @@ def format_json(content, style=OUTPUT_STYLE):
 
 def sample(style=OUTPUT_STYLE):
     print(format_json({
-        'AVAILABLE_STYLES': AVAILABLE_STYLES,
+        'AVAILABLE_STYLES': sorted(AVAILABLE_STYLES),
         'types': {
             'int': 42,
             'float': 8.75,
