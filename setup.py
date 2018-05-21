@@ -33,9 +33,14 @@ setup(
         'json'
     ],
     classifiers=[
+        'Environment :: Console',
         'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python'
+        'Programming Language :: Python',
+        'Topic :: Software Development',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Utilities',
     ]
 )
